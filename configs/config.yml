@@ -55,7 +55,7 @@ bungeecord:
   servername: '&8[&cServer&8]'
   join_global: true
 relation_placeholders_enabled: true
-timestamp_format: MM/dd/yy HH:mm:ss
+timestamp_format: dd/MM/yyyy HH:mm:ss
 boolean:
   'true': '&atrue'
   'false': '&cfalse'
@@ -68,7 +68,7 @@ chat_filter:
   - fuck;fuck
 private_message:
   enabled: true
-  bungeecord: false
+  bungeecord: true
 private_message_formats:
   to_sender:
     format: '&7You &e-> &7%recipient_player_name% &7:'
